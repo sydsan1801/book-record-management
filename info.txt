@@ -1,0 +1,37 @@
+
+MVC->Model view Controller
+Modal: It depicts the structure of mongodb collection
+View: Fronted (React Js)
+Controller: Brain /logical part of route(Backend)
+  >>books.controller.Js
+  >>users.controller.js
+
+Schema >> it has constraints
+  id:String
+  name:String
+  age:Number
+  Gender:char||varchar(15)
+
+model >>It has values for the feilds
+ id:123,name:XYZ,age:12,gender:"F"
+ (no datatype)
+
+ DTO data transfer object ->assu=igning some info from one object to other object
+ var obj1:{
+      name:
+      age:
+      id:
+ }
+ ||
+ ||
+ DTO
+ ||
+ var obj2:{
+
+ }
+
+ work flow
+ index.js->books.js->(controllers)book-controller.js
+ index.js->users.js->(controllers)user-controller.js
+ models for defining the schema for the database
+ 
